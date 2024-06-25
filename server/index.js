@@ -19,7 +19,7 @@ app.use(
   '/graphql',
   graphqlHTTP({
     schema, // same as schema: schema bcs key and value have same name
-    graphiql: process.env.NODE_ENV === 'development' ? true : false,
+    graphiql: process.env.NODE_ENV === 'development' ? true : false, // gives us a user interface for testing our apis, no need for api testers such as postman
   })
 );
 
