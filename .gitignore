@@ -1,5 +1,4 @@
 node_modules/
 server/graphQlPractice.js
 config.env
-package-lock.json
-package.json
+
