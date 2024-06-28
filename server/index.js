@@ -11,7 +11,7 @@ const schema = require('./schema/schema'); // we don't need to import this
 const colors = require('colors');
 const connectDB = require('./config/db');
 
-app.options('', cors(corsConfig));
+app.options('', cors(corsConfig)); // cors config for allowing access from cross origins
 app.use(cors(corsConfig)); // important for working with react frontend server
 
 const port = process.env.PORT || 5000;
